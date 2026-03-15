@@ -1,0 +1,277 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Poppins;
+}
+
+body{
+background:#f7f5ff;
+color:#333;
+}
+
+header{
+
+height:100vh;
+
+background:#C6BADE;
+
+color:#2d2d2d;
+
+}
+
+nav{
+
+display:flex;
+justify-content:space-between;
+padding:20px 80px;
+
+}
+
+nav ul{
+
+display:flex;
+list-style:none;
+
+}
+
+nav ul li{
+
+margin-left:25px;
+
+}
+
+nav a{
+
+text-decoration:none;
+color:#2d2d2d;
+font-weight:500;
+
+}
+
+.logo{
+
+font-size:26px;
+font-weight:600;
+
+}
+
+.hero{
+
+text-align:center;
+margin-top:160px;
+
+}
+
+.hero span{
+
+color:#5b4c9b;
+
+}
+
+.subtitle{
+
+margin-top:15px;
+font-size:20px;
+color:#3b3b3b;
+
+}
+
+.btn{
+
+display:inline-block;
+
+margin-top:30px;
+
+padding:12px 28px;
+
+background:#5b4c9b;
+
+color:white;
+
+border-radius:25px;
+
+text-decoration:none;
+
+font-weight:bold;
+
+transition:0.3s;
+
+}
+
+.btn:hover{
+
+transform:scale(1.08);
+
+}
+
+section{
+
+padding:80px 120px;
+
+}
+
+h2{
+
+text-align:center;
+
+margin-bottom:40px;
+
+color:#5b4c9b;
+
+}
+
+.edu-card{
+
+background:white;
+
+padding:20px;
+
+border-radius:10px;
+
+margin-bottom:20px;
+
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+
+}
+
+.skills{
+
+display:flex;
+flex-wrap:wrap;
+gap:10px;
+justify-content:center;
+
+}
+
+.skill{
+
+background:#C6BADE;
+
+color:#2d2d2d;
+
+padding:10px 18px;
+
+border-radius:20px;
+
+}
+
+.projects{
+
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:25px;
+
+}
+
+.card{
+
+background:white;
+
+padding:20px;
+
+border-radius:10px;
+
+box-shadow:0 4px 12px rgba(0,0,0,0.1);
+
+transition:0.3s;
+
+}
+
+.card:hover{
+
+transform:translateY(-10px);
+
+}
+
+.card img{
+
+width:100%;
+border-radius:8px;
+margin-bottom:10px;
+
+}
+
+.card a{
+
+color:#5b4c9b;
+text-decoration:none;
+font-weight:bold;
+
+}
+
+.gallery{
+
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+
+}
+
+.gallery img{
+
+width:100%;
+border-radius:10px;
+
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+
+}
+
+footer{
+
+text-align:center;
+padding:20px;
+
+background:#C6BADE;
+
+margin-top:40px;
+
+}
+
+.cv-btn{
+
+display:inline-block;
+
+margin-left:15px;
+
+padding:12px 28px;
+
+background:#5b4c9b;
+
+color:white;
+
+border-radius:25px;
+
+text-decoration:none;
+
+font-weight:bold;
+
+transition:0.3s;
+
+}
+
+.cv-btn:hover{
+
+transform:scale(1.08);
+
+background:#483a85;
+
+}
+
+.certificate-list{
+  list-style: none;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.certificate-list li{
+  background: #fff;
+  color: #333;
+  margin-bottom: 15px;
+  padding: 15px 20px;
+  border-left: 5px solid #5b4c9b;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+  font-weight: 500;
+}
