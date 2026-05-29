@@ -26,6 +26,15 @@ display:flex;
 justify-content:space-between;
 padding:20px 80px;
 
+position:sticky;
+top:0;
+
+background:#C6BADE;
+
+z-index:1000;
+
+align-items:center;
+
 }
 
 nav ul{
@@ -199,7 +208,11 @@ text-decoration:none;
 font-weight:bold;
 
 }
+.card a:hover{
 
+color:#3d2f78;
+
+}
 .gallery{
 
 display:grid;
